@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: whisperer-service
+
+app:
+  hotkey:
+    windows: ctrl space
+    mac: meta shift
+
+  vosk:
+    # Скачать модели можно с: https://alphacephei.com/vosk/models
+    # Для русского языка: vosk-model-small-ru-0.22
+    # Для английского: vosk-model-small-en-us-0.15
+
+  audio:
+    sample-rate: 44100.0
